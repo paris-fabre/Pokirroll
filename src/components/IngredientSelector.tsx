@@ -106,21 +106,12 @@ export default function IngredientSelector({
                     </div>
                   )}
 
-                  {/* Real-life visual image representation */}
-                  {item.imageUrl ? (
-                    <img
-                      src={item.imageUrl}
-                      alt={item.name}
-                      referrerPolicy="no-referrer"
-                      className={`w-full h-full object-cover rounded-full z-10 transition-transform duration-300 ${
-                        !isAvailable ? 'grayscale opacity-30' : ''
-                      }`}
-                    />
-                  ) : (
-                    <span className={`text-2xl z-10 select-none ${!isAvailable ? 'grayscale opacity-30' : ''}`} role="img" aria-label={item.name}>
-                      {item.icon}
-                    </span>
-                  )}
+                  {/* Color-based representation matching the bowl palette */}
+                  <span className={`text-2xl z-10 select-none filter drop-shadow-md transition-transform duration-300 ${
+                    !isAvailable ? 'grayscale opacity-30' : 'group-hover:scale-110'
+                  }`} role="img" aria-label={item.name}>
+                    {item.icon}
+                  </span>
 
                   {/* Selected check ring indicator */}
                   {isSelected && isAvailable && (

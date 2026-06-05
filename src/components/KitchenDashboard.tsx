@@ -274,13 +274,19 @@ export default function KitchenDashboard({
                                       {isItemChecked && <Check className="w-3 h-3" strokeWidth={3} />}
                                     </div>
                                   )}
-                                  {ing?.imageUrl ? (
-                                    <img
-                                      src={ing.imageUrl}
-                                      alt={name}
-                                      referrerPolicy="no-referrer"
-                                      className={`w-5 h-5 rounded-full object-cover shrink-0 ${isItemChecked ? 'grayscale opacity-40' : ''}`}
-                                    />
+                                  {ing ? (
+                                    <div 
+                                      className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 shadow-sm border border-black/[0.04]"
+                                      style={{ 
+                                        background: ing.colors[1] 
+                                          ? `linear-gradient(135deg, ${ing.colors[0]} 0%, ${ing.colors[1]} 100%)`
+                                          : ing.colors[0] 
+                                      }}
+                                    >
+                                      <span className={`text-[10px] leading-none shrink-0 block transform scale-90 ${isItemChecked ? 'grayscale opacity-30' : ''}`}>
+                                        {icon}
+                                      </span>
+                                    </div>
                                   ) : (
                                     <span className="text-sm leading-none shrink-0">{icon}</span>
                                   )}
@@ -325,13 +331,19 @@ export default function KitchenDashboard({
                                       {isItemChecked && <Check className="w-3 h-3" strokeWidth={3} />}
                                     </div>
                                   )}
-                                  {ing?.imageUrl ? (
-                                    <img
-                                      src={ing.imageUrl}
-                                      alt={name}
-                                      referrerPolicy="no-referrer"
-                                      className={`w-5 h-5 rounded-full object-cover shrink-0 ${isItemChecked ? 'grayscale opacity-40' : ''}`}
-                                    />
+                                  {ing ? (
+                                    <div 
+                                      className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 shadow-sm border border-black/[0.04]"
+                                      style={{ 
+                                        background: ing.colors[1] 
+                                          ? `linear-gradient(135deg, ${ing.colors[0]} 0%, ${ing.colors[1]} 100%)`
+                                          : ing.colors[0] 
+                                      }}
+                                    >
+                                      <span className={`text-[10px] leading-none shrink-0 block transform scale-90 ${isItemChecked ? 'grayscale opacity-30' : ''}`}>
+                                        {icon}
+                                      </span>
+                                    </div>
                                   ) : (
                                     <span className="text-sm leading-none shrink-0">{icon}</span>
                                   )}
@@ -376,13 +388,19 @@ export default function KitchenDashboard({
                                       {isItemChecked && <Check className="w-3 h-3" strokeWidth={3} />}
                                     </div>
                                   )}
-                                  {ing?.imageUrl ? (
-                                    <img
-                                      src={ing.imageUrl}
-                                      alt={name}
-                                      referrerPolicy="no-referrer"
-                                      className={`w-5 h-5 rounded-full object-cover shrink-0 ${isItemChecked ? 'grayscale opacity-40' : ''}`}
-                                    />
+                                  {ing ? (
+                                    <div 
+                                      className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 shadow-sm border border-black/[0.04]"
+                                      style={{ 
+                                        background: ing.colors[1] 
+                                          ? `linear-gradient(135deg, ${ing.colors[0]} 0%, ${ing.colors[1]} 100%)`
+                                          : ing.colors[0] 
+                                      }}
+                                    >
+                                      <span className={`text-[10px] leading-none shrink-0 block transform scale-90 ${isItemChecked ? 'grayscale opacity-30' : ''}`}>
+                                        {icon}
+                                      </span>
+                                    </div>
                                   ) : (
                                     <span className="text-sm leading-none shrink-0">{icon}</span>
                                   )}
@@ -427,13 +445,19 @@ export default function KitchenDashboard({
                                       {isItemChecked && <Check className="w-3 h-3" strokeWidth={3} />}
                                     </div>
                                   )}
-                                  {ing?.imageUrl ? (
-                                    <img
-                                      src={ing.imageUrl}
-                                      alt={name}
-                                      referrerPolicy="no-referrer"
-                                      className={`w-5 h-5 rounded-full object-cover shrink-0 ${isItemChecked ? 'grayscale opacity-40' : ''}`}
-                                    />
+                                  {ing ? (
+                                    <div 
+                                      className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 shadow-sm border border-black/[0.04]"
+                                      style={{ 
+                                        background: ing.colors[1] 
+                                          ? `linear-gradient(135deg, ${ing.colors[0]} 0%, ${ing.colors[1]} 100%)`
+                                          : ing.colors[0] 
+                                      }}
+                                    >
+                                      <span className={`text-[10px] leading-none shrink-0 block transform scale-90 ${isItemChecked ? 'grayscale opacity-30' : ''}`}>
+                                        {icon}
+                                      </span>
+                                    </div>
                                   ) : (
                                     <span className="text-sm leading-none shrink-0">{icon}</span>
                                   )}
@@ -478,13 +502,19 @@ export default function KitchenDashboard({
                                       {isItemChecked && <Check className="w-3 h-3" strokeWidth={3} />}
                                     </div>
                                   )}
-                                  {ing?.imageUrl ? (
-                                    <img
-                                      src={ing.imageUrl}
-                                      alt={name}
-                                      referrerPolicy="no-referrer"
-                                      className={`w-5 h-5 rounded-full object-cover shrink-0 ${isItemChecked ? 'grayscale opacity-40' : ''}`}
-                                    />
+                                  {ing ? (
+                                    <div 
+                                      className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 shadow-sm border border-black/[0.04]"
+                                      style={{ 
+                                        background: ing.colors[1] 
+                                          ? `linear-gradient(135deg, ${ing.colors[0]} 0%, ${ing.colors[1]} 100%)`
+                                          : ing.colors[0] 
+                                      }}
+                                    >
+                                      <span className={`text-[10px] leading-none shrink-0 block transform scale-90 ${isItemChecked ? 'grayscale opacity-30' : ''}`}>
+                                        {icon}
+                                      </span>
+                                    </div>
                                   ) : (
                                     <span className="text-sm leading-none shrink-0">{icon}</span>
                                   )}
