@@ -1,0 +1,6 @@
+{
+  "name": "Pokirroll",
+  "description": "Arma tu poke bowl ideal de forma visual e interactiva, con ingredientes en tiempo real y envío de comandas detalladas a cocina.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
